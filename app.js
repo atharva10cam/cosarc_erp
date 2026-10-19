@@ -363,7 +363,7 @@
   }
 
   function titleFor(route) {
-    return ({ dashboard: "Command Dashboard", members: "Member CRM", enquiries: "Enquiry Pipeline", attendance: "Attendance", payments: "Payments", trainers: "Trainer Desk", sales: "Sales Desk", reports: "Analytics Reports", settings: "Admin Settings" })[route] || "Dashboard";
+    return ({ dashboard: "Dashboard", members: "Member CRM", enquiries: "Enquiry Pipeline", attendance: "Attendance", payments: "Payments", trainers: "Trainer Desk", sales: "Sales Desk", reports: "Analytics Reports", settings: "Admin Settings" })[route] || "Dashboard";
   }
 
   function page() {
